@@ -1,4 +1,30 @@
+Poprawki:
 `https://www.facebook.com/groups/223889134481096/permalink/705722699631068/`
+
+## 1
+
+"Use the same vocabulary for the same type of variable"
+IMO źle zinterpretowane - w różnych kontekstach domenowych jak najbardziej mogą pojawiać się inne nazwy, jeśli mają uzasadnienie w danym kontekście ;)
+
+"Avoid negative conditionals"
+Czasami negacja lepiej wyraża intencję -kiedy chcemy sprawdzić czy coś się nie powiodło, czegoś nie ma, etc.
+
+"Liskov Substitution Principle (LSP)"
+
+W "good" podaje się przykład który.. pokazany był jako "bad" w części o tym by nie robić instanceof :D Kompletnie zle zrobione - zamiast setterow powinien być konstruktor ( z dwoma paramami dla rectangle i 1 dla square ) i po prostu callowac getArea().
+
+"Interface Segregation Principle (ISP)"
+
+Nazwy interfejsow z czapy. "Workable"? "Eatable"? Nie. Oni nie sa ,,pracowalni" ani nie da się ich tym bardziej zjeść, tylko ONI mogą pracować, ONI mogą zjeść. Rozróżnianie aktora wykonującego i podmiotu nań którym się wykonuje operację w nazwach jest kluczowa jeśli nie chce się pisać takich koszmarkowych interfejsów :D
+
+"Use method chaining"
+
+Przydatne w konkretnej klasie obiektów ( builderach ). W przeciwnym wypadku odradzam ;)
+
+> Prefer composition over inheritance
+Zła implementacja - EmployeeTaxData powinno być wstrzyknięte w konstuktorze a nie w setterze jeśli chcesz mieć identyczną funkcjonalność z oryginałem ;)
+
+## 2
 
 IMO to jest bardzo złe coś. Nie dlatego, że nie ma tam dobrych zasad, tylko, że zasady dobre przeplatane są zasadami złymi, a dla zasad dobrych często podawane są złe uzasadnienia. 
 
